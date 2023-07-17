@@ -26,7 +26,7 @@ this is a sample that combine go-clean-arch &amp; go-standard-layout
 例如 `/internal/domain/user.go` 里面存放着 `user` 的 `model` 定义，以及 `user_respository` `user_usecase` `user_delivery` 层对应的接口定义。
 
 ##### `/internal/domain/mocks`
-根据 [go-clean-arch](https://github.com/bxcodec/go-clean-arch) 这里存放对应 `usecase` `repository` 层相关代码的 mocks 和 subs。
+根据 [go-clean-arch](https://github.com/bxcodec/go-clean-arch) 这里存放对应 `usecase` `repository` 层相关代码的 `mocks` 和 `stub`。
 
 例如 `/internal/domain/mocks/user_repository.go` 存放对应 `user_repository` `mock` 的代码。
 
